@@ -14,10 +14,10 @@
 
 </head>
 
-<body class="antialiased">
+<body>
     <header>
         <div class="container">
-            <img src="../img/dc-logo.png" alt="">
+            <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="">
             <nav>
                 <ul>
                     <li>
