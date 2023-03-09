@@ -1,5 +1,5 @@
 <header>
-    <div class="container">
+    <div class="my-container">
         <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="">
         <nav>
             <ul>
