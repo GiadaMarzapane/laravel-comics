@@ -1,1 +1,42 @@
 @import "~bootstrap/scss/bootstrap";
+header {
+    height: 15vh;
+    padding: 10px;
+
+    div {
+        max-width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+
+        img {
+            height: 100%;
+        }
+
+        nav {
+            ul {
+                display: flex;
+                justify-content: center;
+
+                li {
+                    list-style: none;
+                    padding: 0px 15px;
+                    line-height: calc(15vh - 5px);
+
+                    &:hover {
+                        color: #0282f9;
+                        border-bottom: 5px solid #0282f9;
+                    }
+
+                    a {
+                        text-decoration: none;
+                        color: inherit;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+        }
+    }
+}
